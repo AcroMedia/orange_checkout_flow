@@ -7,6 +7,11 @@ use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Provides a checkout flow that uses checkout panes.
+ *
+ * @CommerceCheckoutFlow(
+ *  id = "orange_checkout_flow",
+ *  label = @Translation("Orange Checkout Flow"),
+ * )
  */
 class OrangeCheckoutFlow extends CheckoutFlowWithPanesBase {
 
