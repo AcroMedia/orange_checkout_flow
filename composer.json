@@ -1,0 +1,12 @@
+{
+  "name": "drupal/orange_checkout_flow",
+  "type": "drupal-module",
+  "description": "A custom Drupal Commerce checkout flow plugin for use with Drupal Orange Project.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/AcroMedia/orange_checkout_flow",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/commerce": "~2.0"
+  }
+}

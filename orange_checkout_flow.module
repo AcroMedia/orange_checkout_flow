@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains orange_checkout_flow.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function orange_checkout_flow_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the orange_checkout_flow module.
+    case 'help.page.orange_checkout_flow':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A custom Drupal Commerce checkout flow plugin for use with Drupal Orange Project.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,9 @@
+name: 'Orange Checkout Flow'
+type: module
+description: 'A custom Drupal Commerce checkout flow plugin for use with Drupal Orange Project.'
+package: Orange
+core: 8.x
+dependencies:
+  - commerce:commerce
+  - commerce:commerce_order
+  - commerce:commerce_cart
